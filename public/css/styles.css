@@ -1,0 +1,67 @@
+/* Tipografia: | font-family: 'Roboto Slab', serif; */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
+*{
+    font-family: 'Roboto Slab', serif;
+    font-size: 12px;
+}
+header{
+    background-color: #EAC926; ;
+}
+#titulo{
+    margin-left: 40px;
+    width: 175px;
+    margin-top: 35px;
+    margin-bottom: 20px;
+}
+
+#precioycuotas{
+    margin-left: 60px;
+}
+
+.button{
+    width: 25px;
+    height: 25px;
+    margin-left: 5px;
+
+}
+
+.search {
+    width: 200px;
+    border-radius: 4px;
+    margin-left: 30px;
+}
+
+.livacia{
+    list-style: none;
+    margin: 0;
+}
+
+.burger-menu{
+
+    display: flex;
+    justify-content: center;
+    
+}
+
+.hamburguesa{
+    
+    background-color: #03264C;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 10px;
+    
+}
+
+
+
+.foot{
+    color:#03264C;
+    font-size: 45px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    width: 100%;
+}
