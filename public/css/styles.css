@@ -1,29 +1,113 @@
 /* Tipografia: | font-family: 'Roboto Slab', serif; */
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 *{
-    font-family: 'Roboto Slab', serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 12px;
+    box-sizing: border-box;
+
 }
-header{
-    background-color: #EAC926; ;
+nav{
+    background-color: #EAC926; 
+    width: 100vw;
 }
-#titulo{
-    margin-left: 40px;
-    width: 175px;
-    margin-top: 35px;
-    margin-bottom: 20px;
+
+#logo{
+    width: 200px;
+    display: block;
+    margin: 0px 20% 50px 35px;
+    padding-top: 35px;
+
 }
 
 #precioycuotas{
-    margin-left: 60px;
+   text-align:center;
+
 }
+
+
+.livacia{
+    list-style: none;
+    margin: 0;
+    display: none;
+}
+
+
+.burger-menu{
+    display: flex;
+    justify-content: center;
+}
+
+.hamburguesa{
+    background-color: #03264C;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+/*ACA TERMINA EL HEADER*/
+
+main{
+    width: 100vw;
+    background-color: #ebebeb;
+    padding-bottom: 20px;
+    box-sizing: border-box;
+}
+
+.productoml{ /*Productos de ML*/
+    width: 90vw;
+    background-color: white;
+    box-sizing: border-box;
+    padding: 5vw;
+    margin-bottom: 25px;
+    margin-top: 0px;
+    border-top: solid 1px #ebebeb;
+}
+
+
+.productos{
+    width: 90vw;
+    background-color: white;
+    box-sizing: border-box;
+    padding: 5vw;
+    margin-top: 25px;
+}
+
+.circulo{
+    border: solid 1px #49AF53;
+    border-radius: 50%;
+    width: 4vw;
+    height: 4vw;
+    padding: 3vw 5vw 4vw 2vw;
+}
+h5{
+    font-size: 18px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+h6{
+    color: #49AF53;
+    margin-top: 12px;
+    margin-bottom: 30px;
+}
+
+b{
+    font-size: 18px;
+    color: rgb(151, 151, 151);
+}
+
+
+
 
 .button{
     width: 25px;
     height: 25px;
     margin-left: 5px;
-
+    
 }
 
 .search {
@@ -32,31 +116,28 @@ header{
     margin-left: 30px;
 }
 
-.livacia{
-    list-style: none;
-    margin: 0;
+
+.ofertas{
+    font-size: 6vw;
+    font-weight: 600;
+    margin-left: 4vw;
 }
 
-.burger-menu{
 
-    display: flex;
-    justify-content: center;
-    
+
+.camion{
+    color: #49AF53;
+    font-size: larger;
+    margin: auto;
 }
 
-.hamburguesa{
-    
-    background-color: #03264C;
+footer{
     text-align: center;
-    color: white;
-    font-size: 25px;
-    padding: 15px;
-    margin: 10px;
-    border-radius: 10px;
-    
+    width: 90vw;
+    margin-left: 5vw;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
-
-
 
 .foot{
     color:#03264C;
@@ -64,4 +145,23 @@ header{
     margin-bottom: 10px;
     margin-top: 20px;
     width: 100%;
+    
+}
+
+@media (min-width: 480px)  {
+
+    .livacia{
+        display: inline;
+    }
+
+    nav{
+        padding-bottom: 45px;
+    }
+
+
+
+    .burger-menu{
+        display: none;
+    }
+
 }
