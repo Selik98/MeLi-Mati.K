@@ -1,44 +1,91 @@
 /* Tipografia: | font-family: 'Roboto Slab', serif; */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
-*{
+* {
     font-family: 'Roboto', sans-serif;
     font-size: 12px;
     box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
 
 }
-nav{
-    background-color: #EAC926; 
+
+
+nav {
+    background-color: #EAC926;
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.superior {
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
     width: 100vw;
 }
 
-#logo{
-    width: 200px;
-    display: block;
-    margin: 0px 20% 50px 35px;
+.sup {
+
+    width: 50%;
     padding-top: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.busqueda {
+    display: flex;
+    height: fit-content;
+    width: 70%;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    border-radius: 5px;
+}
+
+.busqueda input {
+
+    border: none;
+    width: 90%;
+}
+
+.busqueda button {
+    height: 50%;
+    background-color: #ffffff;
+    border: none;
+    display: flex;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.fa-magnifying-glass {
+    padding: 10px;
+}
+
+#precioycuotas {
+    padding-top: 30px;
+    text-align: center;
+    width: 100%;
 
 }
 
-#precioycuotas{
-   text-align:center;
 
-}
-
-
-.livacia{
+.livacia {
     list-style: none;
     margin: 0;
     display: none;
 }
 
 
-.burger-menu{
+.burger-menu {
+    padding-top: 30px;
     display: flex;
     justify-content: center;
 }
 
-.hamburguesa{
+.hamburguesa {
     background-color: #03264C;
     text-align: center;
     color: white;
@@ -48,57 +95,117 @@ nav{
     border-radius: 10px;
 }
 
+
+
+
+
 /*ACA TERMINA EL HEADER*/
 
-main{
+
+
+main {
     width: 100vw;
     background-color: #ebebeb;
     padding-bottom: 20px;
     box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
 }
 
-article{
+
+.ofertas {
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+    font-size: 6vw;
+    font-weight: 600;
+    margin: 4vw 0% 4vw 0%;
+    color: rgb(60,60,60);
+}
+
+main section article i{
+    display: block;
+    font-size: 16px;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #39b54a;
+    background-color: #FFF;
+    border-radius: 50%;
+    right: 20px;
+    top: -15px;
+    }
+
+
+.lista{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+article {
     background-color: white;
     width: 90vw;
+    margin-bottom: 4vw;
+    display: flex;
+    flex-wrap: wrap;
 }
-.productoml{ /*Productos de ML*/
-    width: 90vw;
+
+.productoml {
+    /*Productos de ML*/
+    width: 100%;
     box-sizing: border-box;
     padding: 5vw;
     margin-bottom: 25px;
     margin-top: 0px;
     border-top: solid 1px #ebebeb;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 
-.productos{
-    width: 90vw;
+.productos {
+    width: 100%;
     background-color: white;
     box-sizing: border-box;
     padding: 5vw;
     margin-top: 25px;
 }
 
-.circulo{
-    border: solid 1px #49AF53;
-    border-radius: 50%;
-    width: 4vw;
-    height: 4vw;
-    padding: 3vw 5vw 4vw 2vw;
-}
-h5{
-    font-size: 18px;
-    margin-top: 12px;
-    margin-bottom: 12px;
+.envios {
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
 }
 
-h6{
+.camion {
     color: #49AF53;
-    margin-top: 12px;
-    margin-bottom: 30px;
+    font-size: larger;
 }
 
-b{
+.precio{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 3vw;
+}
+h5 {
+    font-size: 18px;
+
+    display: inline-block;
+    width: fit-content;
+
+}
+
+h6 {
+    display: inline-block;
+    font-size: 16px;
+    color: #49AF53;
+}
+
+b {
     font-size: 18px;
     color: rgb(151, 151, 151);
 }
@@ -106,37 +213,11 @@ b{
 
 
 
-.button{
-    width: 25px;
-    height: 25px;
-    margin-left: 5px;
-    
-}
-
-.search {
-    width: 200px;
-    border-radius: 4px;
-    margin-left: 30px;
-}
-
-
-.ofertas{
-    font-size: 6vw;
-    font-weight: 600;
-    margin-left: 4vw;
-    list-style: none;
-    margin: 15px;
-}
 
 
 
-.camion{
-    color: #49AF53;
-    font-size: larger;
-    margin: auto;
-}
 
-footer{
+footer {
     text-align: center;
     width: 90vw;
     margin-left: 5vw;
@@ -144,33 +225,92 @@ footer{
     padding-bottom: 30px;
 }
 
-.foot{
-    color:#03264C;
+.foot {
+    color: #03264C;
     font-size: 45px;
     margin-bottom: 10px;
     margin-top: 20px;
     width: 100%;
-    
+
 }
 
-@media (min-width: 480px)  {
+@media (min-width: 769px) {
 
-    .livacia{
-        display: inline;
+
+    .superior {
+        width: 66vw;
     }
 
-    nav{
-        padding-bottom: 45px;
+    .sup {
+        width: 32vw;
+    }
+
+    #precioycuotas {
+        width: 33vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .inf {
+        display: flex;
+        width: 100vw;
+        padding-bottom: 15px;
+        justify-content: space-between;
+    }
+
+    .livacia {
+        padding-top: 35px;
+        display: flex;
+        align-items: flex-end;
+        width: 40%;
+        justify-content: space-around;
     }
 
 
 
-    .burger-menu{
+
+
+    .burger-menu {
         display: none;
     }
 
-    article{
-        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    
+
+    .ofertas{
+        font-size: 25px;
+        justify-content: flex-start;
+        padding-left: 6vw;
     }
+
+
+    article {
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+        width: 40vw;
+    }
+
+    @media (min-width: 1280px) {
+
+        .livacia{
+            width: 30%;
+        }
+
+        .ofertas{
+            font-size: 35px;
+        }
+
+        .productoml{
+            padding: 2vw;
+        }
+
+        .productos{
+            padding: 2vw;
+        }
+        article {
+            width: 20vw;
+        }
+        
+    }
+
 
 }
