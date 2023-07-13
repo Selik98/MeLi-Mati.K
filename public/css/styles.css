@@ -199,7 +199,7 @@ article {
     display: flex;
     flex-wrap: wrap;
 }
-b {
+article b {
     font-size: 18px;
     color: rgb(151, 151, 151);
     opacity: 0%;
@@ -271,7 +271,9 @@ h6 {
 
 
 
-
+.pie p{
+    margin-top: 10px;
+}
 
 
 
@@ -303,6 +305,8 @@ footer {
     width: 90vw;
     clear: both;
 }
+
+
 
 
 @media (min-width: 769px) {
@@ -373,6 +377,8 @@ footer {
     .pie{
         width: 30%;
     }
+
+
 
 
     @media (min-width: 1280px) {
