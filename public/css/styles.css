@@ -203,6 +203,7 @@ b {
     font-size: 18px;
     color: rgb(151, 151, 151);
     opacity: 0%;
+    transition: 300ms;
 }
 
 article:hover b {
