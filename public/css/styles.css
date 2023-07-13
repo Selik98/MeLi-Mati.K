@@ -293,6 +293,10 @@ footer {
 
 }
 
+.foot:hover{
+    color: #0e66c4;
+}
+
 #copy{
     padding-top: 50px;
     display: flex;
