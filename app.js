@@ -10,6 +10,15 @@ app.get('/', (req,res) => {
     res.sendFile(path.join(__dirname, './index.html'))
 });
 
+app.get('/login', (req,res) => {
+    console.log ('Hicieron un Request en "/login"')
+    res.sendFile(path.join(__dirname, './views/login.html'))
+});
+
+app.get('/register', (req,res) => {
+    console.log ('Hicieron un Request en "/register"')
+    res.sendFile(path.join(__dirname, './views/register.html'))
+});
 
 
 

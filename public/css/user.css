@@ -1,0 +1,167 @@
+/*
+
+Login Y register
+
+*/
+
+main {
+    padding-top: 60px;
+    display: flex;
+    justify-content: center;
+}
+
+.form {
+    display: flex;
+    width: fit-content;
+    align-items: flex-start;
+    padding-bottom: 20px;
+    flex-direction: column;
+}
+
+.form label {
+    margin-bottom: 10px;
+}
+
+.send {
+    align-items: center;
+    display: flex;
+    color: white;
+    font-size: 150%;
+    background-color: #0044aa;
+    padding: 10px;
+    width: 85vw;
+    border-radius: 10px;
+    margin-bottom: 5vw;
+    transition: 200ms;
+}
+
+.send:hover{
+background-color: #0022AA;
+}
+
+.contenedor {
+    width: 85vw;
+    border-radius: 7px;
+    padding: 10px;
+    margin-bottom: 25px;
+}
+
+.userprob{
+        width: 100%;
+        display: flex;
+        margin-top: 15px;
+        justify-content: space-around;
+        margin-bottom: 25px;
+}
+
+.options{
+    display: flex;
+    flex-wrap: wrap;
+    width: 85vw;
+    flex-direction: row;
+
+}
+.options label{
+    width: 85vw;
+}
+.sexo label, .interes label{
+    margin-left: 10px;
+}
+.sexo,.interes{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    width: 50%;
+}
+#checkbox{
+    display: flex;
+    flex-direction: column;
+}
+
+.botones{
+    display: flex;
+    width: 85vw;
+    justify-content: space-between;
+}
+
+
+
+
+#mandar, #borrar{
+    display: flex;
+    width: 40vw;
+}
+
+#borrar{
+    background-color: #999999;
+   transition: 200ms ;
+}
+
+#borrar:hover{
+    background-color: #777777;
+    color: white;
+   
+}
+
+
+
+
+
+
+
+@media (min-width: 769px) {
+    .contenedor, .options{
+        width: 60vw;
+    }
+    #send,.botones{
+        width: 60vw;
+    }
+
+    .sexo input{
+        margin-left: 5vw;
+    }
+
+    .sexo label{
+        margin-left: 20px;
+    }
+
+    .sexo{width: 25%;}
+
+    .options label {width: 60vw;}
+
+    #mandar, #borrar{
+        display: flex;
+        width: 28vw;
+    }
+
+
+
+}
+
+
+
+@media (min-width: 1280px) {
+    .contenedor, .options{
+        width: 51vw;
+    }
+    #send{
+        width: 51vw;
+    }
+
+    .sexo input{
+        margin-left: 5vw;
+    }
+
+    .sexo label{
+        margin-left: 20px;
+    }
+}
+
+
+
+
+
+
+@media (min-width: 1600px) {
+
+}

@@ -27,28 +27,33 @@ nav {
 }
 
 .sup {
-
-    width: 50%;
+    width: 50vw;
     padding-top: 35px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
+
 .busqueda {
     display: flex;
     height: fit-content;
     width: 70%;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
     background-color: #ffffff;
     border-radius: 5px;
 }
 
+.buscador{
+    height: 30px;
+    font-size: 18px;
+}
+
 .busqueda input {
 
     border: none;
-    width: 90%;
+    width: 75%;
 }
 
 .busqueda button {
@@ -63,6 +68,13 @@ nav {
 .fa-magnifying-glass {
     padding: 10px;
 }
+
+.fa-magnifying-glass:hover {
+    font-size: 16px;
+    padding: 8px;
+}
+
+
 
 #precioycuotas {
     padding-top: 30px;
@@ -80,24 +92,42 @@ nav {
 
 
 .burger-menu {
-    padding-top: 30px;
+    margin-top: 30px;
     display: flex;
     justify-content: center;
+    align-items: center;
+    width: fit-content;
+    background-color: #03264C;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    width: 60px;
+    height: 60px;
+
+
 }
 
 .hamburguesa {
-    background-color: #03264C;
     text-align: center;
     color: white;
     font-size: 25px;
     padding: 15px;
     margin: 10px;
-    border-radius: 10px;
 }
 
 
+.navlinks{
+    color: black;
+    text-decoration: none;
+}
 
+.navlinks:visited{
+    color: black;
+    text-decoration: none;
+}
 
+.navlinks :hover{
+    color: #006eff;
+}
 
 /*ACA TERMINA EL HEADER*/
 
@@ -123,7 +153,9 @@ main {
     color: rgb(60,60,60);
 }
 
-main section article i{
+
+.camion {
+    color: #39b54a;
     display: block;
     font-size: 16px;
     padding: 5px;
@@ -132,9 +164,25 @@ main section article i{
     border: 1px solid #39b54a;
     background-color: #FFF;
     border-radius: 50%;
+    position: absolute;
     right: 20px;
     top: -15px;
-    }
+    transition: 300ms;
+}
+
+.camion:hover{
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: -20px;
+    transform: rotate(-90deg);
+
+}
+
+
 
 
 .lista{
@@ -151,6 +199,21 @@ article {
     display: flex;
     flex-wrap: wrap;
 }
+b {
+    font-size: 18px;
+    color: rgb(151, 151, 151);
+    opacity: 0%;
+}
+
+article:hover b {
+    opacity: 100%;
+  }
+
+
+
+b:hover{
+    display: inline-block;
+}
 
 .productoml {
     /*Productos de ML*/
@@ -162,6 +225,7 @@ article {
     border-top: solid 1px #ebebeb;
     display: flex;
     flex-wrap: wrap;
+    position: relative;
 }
 
 
@@ -179,10 +243,7 @@ article {
     justify-content: flex-end;
 }
 
-.camion {
-    color: #49AF53;
-    font-size: larger;
-}
+
 
 .precio{
     width: 80%;
@@ -205,10 +266,7 @@ h6 {
     color: #49AF53;
 }
 
-b {
-    font-size: 18px;
-    color: rgb(151, 151, 151);
-}
+
 
 
 
@@ -233,6 +291,14 @@ footer {
     width: 100%;
 
 }
+
+#copy{
+    padding-top: 50px;
+    display: flex;
+    width: 90vw;
+    clear: both;
+}
+
 
 @media (min-width: 769px) {
 
@@ -284,10 +350,25 @@ footer {
     }
 
 
-    article {
-        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    article{
         width: 40vw;
     }
+    article:hover {
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
+
+    .footer{
+        display: flex;
+        width: 90vw;
+        margin: 0;
+        justify-content: space-around;
+
+    }
+
+    .pie{
+        width: 30%;
+    }
+
 
     @media (min-width: 1280px) {
 
@@ -309,8 +390,26 @@ footer {
         article {
             width: 20vw;
         }
-        
+        a .navlinks{
+            font-size: 17px;
+        }
     }
 
 
+}
+
+
+@media (min-width: 1600px) {
+    h4{
+        font-size: 0.7vw;
+    }
+
+    h4 i{
+        font-size: 0.7vw;
+    }
+    
+    
+    .livacia{
+        font-size: 17px;
+    }
 }
