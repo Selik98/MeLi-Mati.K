@@ -1,22 +1,17 @@
 {
-  "name": "mercadoliebre",
+  "name": "clase17",
   "version": "1.0.0",
   "description": "",
   "main": "app.js",
-
   "scripts": {
     "dev": "npx nodemon app",
     "start": "node app"
   },
-  
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Selik98/MercadoLiebre-Mati.K.git"
-  },
-  "author": "Matias K",
+  "keywords": [],
+  "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Selik98/MercadoLiebre-Mati.K/issues"
-  },
-  "homepage": "https://github.com/Selik98/MercadoLiebre-Mati.K#readme"
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2"
+  }
 }
