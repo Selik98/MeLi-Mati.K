@@ -1,0 +1,22 @@
+{
+  "name": "mercadoliebre",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+
+  "scripts": {
+    "dev": "nodemon src/index.js",
+    "start": "node src/index.js"
+    },
+  
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Selik98/MercadoLiebre-Mati.K.git"
+  },
+  "author": "Matias K",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Selik98/MercadoLiebre-Mati.K/issues"
+  },
+  "homepage": "https://github.com/Selik98/MercadoLiebre-Mati.K#readme"
+}
