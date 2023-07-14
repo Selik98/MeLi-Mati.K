@@ -5,9 +5,9 @@
   "main": "app.js",
 
   "scripts": {
-    "dev": "nodemon src/index.js",
-    "start": "node src/index.js"
-    },
+    "dev": "npx nodemon app",
+    "start": "node app"
+  },
   
   "repository": {
     "type": "git",
