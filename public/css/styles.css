@@ -292,10 +292,11 @@ footer {
     margin-bottom: 10px;
     margin-top: 20px;
     width: 100%;
+    transition: 300ms;
 
 }
 
-.foot:hover{
+.pie:hover .foot{
     color: #0e66c4;
 }
 
@@ -306,11 +307,120 @@ footer {
     clear: both;
 }
 
+@media (min-width: 361px) {
+    .camion{
+        font-size: 14px;
+        align-content: center;
+    }
+    article:hover .camion{
+        width: 30px;
+        height: 30px;
+        font-size: 14px;
+        top: -15px;
+    }
+
+
+    .busqueda input{
+        width: 70%;
+    }
+
+    
+
+    .ofertas{
+        font-size: 25px;
+        justify-content: flex-start;
+        padding-left: 6vw;
+    }
+
+
+    article{
+        width: 40%;
+    }
+    article:hover {
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
+
+    .productoml{
+        padding: 4vw;
+        
+    }
+
+    
+    .footer{
+        display: flex;
+        width: 90vw;
+        margin: 0;
+        justify-content: space-around;
+
+    }
+
+    .pie{
+        width: 30%;
+    }
+
+
+    h5 {
+        font-size: 13px;
+    
+        display: inline-block;
+        width: fit-content;
+    
+    }
+    
+    h6 {
+        display: inline-block;
+        font-size: 14px;
+        color: #49AF53;
+    }
+
+    .precio {
+        width: 100%;
+    }
+
+    
+@media (min-width: 481px) {
+
+    h5 {
+        font-size: 16px;
+    
+        display: inline-block;
+        width: fit-content;
+    
+    }
+
+    article:hover .camion{
+        width: 40px;
+        height: 40px;
+        font-size: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        top: -20px;
+        transform: rotate(-90deg);
+    }
 
 
 
-@media (min-width: 769px) {
 
+    
+
+
+
+
+
+
+
+
+
+
+
+  
+
+}
+
+
+
+    @media (min-width: 769px) {
 
     .superior {
         width: 66vw;
@@ -319,6 +429,7 @@ footer {
     .sup {
         width: 32vw;
     }
+
 
     #precioycuotas {
         width: 33vw;
@@ -334,58 +445,20 @@ footer {
         justify-content: space-between;
     }
 
-    .livacia {
-        padding-top: 35px;
-        display: flex;
-        align-items: flex-end;
-        width: 40%;
-        justify-content: space-around;
-    }
 
 
+        .livacia {
+            padding-top: 35px;
+            display: flex;
+            align-items: flex-end;
+            width: 40%;
+            justify-content: space-around;
+        }
 
-
-
-    .burger-menu {
+          .burger-menu {
         display: none;
     }
 
-    
-
-    .ofertas{
-        font-size: 25px;
-        justify-content: flex-start;
-        padding-left: 6vw;
-    }
-
-
-    article{
-        width: 40vw;
-    }
-    article:hover {
-        box-shadow: 0px 0px 10px rgb(100, 100, 100);
-    }
-
-    .footer{
-        display: flex;
-        width: 90vw;
-        margin: 0;
-        justify-content: space-around;
-
-    }
-
-    .pie{
-        width: 30%;
-    }
-
-
-
-
-    @media (min-width: 1280px) {
-
-        .livacia{
-            width: 30%;
-        }
 
         .ofertas{
             font-size: 35px;
@@ -410,7 +483,7 @@ footer {
 }
 
 
-@media (min-width: 1600px) {
+@media (min-width: 1080px) {
     h4{
         font-size: 0.7vw;
     }
@@ -423,4 +496,10 @@ footer {
     .livacia{
         font-size: 17px;
     }
+
+    h5 , h6{
+        font-size: 16px;
+    }
+
+
 }
