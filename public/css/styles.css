@@ -13,7 +13,7 @@
 
 
 nav {
-    background-color: #EAC926;
+    background-color: #a5ffd6;
     width: 100vw;
     display: flex;
     flex-wrap: wrap;
@@ -98,7 +98,7 @@ nav {
     justify-content: center;
     align-items: center;
     width: fit-content;
-    background-color: #03264C;
+    background-color: #03264c;
     border-radius: 10px;
     margin-bottom: 30px;
     width: 60px;
@@ -127,7 +127,11 @@ nav {
 }
 
 .navlinks :hover{
-    color: #006eff;
+    color: #0044aa;
+}
+
+.navlinks :hover i{
+    color: #0044aa !important;
 }
 
 /*ACA TERMINA EL HEADER*/
@@ -156,13 +160,13 @@ main {
 
 
 .camion {
-    color: #39b54a;
+    color: #84dcc6;
     display: block;
     font-size: 16px;
     padding: 5px;
     width: 30px;
     height: 30px;
-    border: 1px solid #39b54a;
+    border: 1px solid #84dcc6;
     background-color: #FFF;
     border-radius: 50%;
     position: absolute;
@@ -180,7 +184,8 @@ article:hover .camion{
     align-items: center;
     top: -20px;
     transform: rotate(-90deg);
-
+    color: #a5ffd6;
+    border-color: #a5ffd6;
 }
 
 
@@ -265,7 +270,7 @@ h5 {
 h6 {
     display: inline-block;
     font-size: 16px;
-    color: #49AF53;
+    color: #84dcc6;
 }
 
 
@@ -288,7 +293,7 @@ footer {
 }
 
 .foot {
-    color: #03264C;
+    color: #03264c;
     font-size: 45px;
     margin-bottom: 10px;
     margin-top: 20px;
@@ -298,7 +303,7 @@ footer {
 }
 
 .pie:hover .foot{
-    color: #0e66c4;
+    color: #0044aa;
 }
 
 #copy{
@@ -371,7 +376,7 @@ footer {
     h6 {
         display: inline-block;
         font-size: 14px;
-        color: #49AF53;
+        color: #84dcc6;
     }
 
     .precio {
