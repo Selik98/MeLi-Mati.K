@@ -507,5 +507,8 @@ footer {
         font-size: 16px;
     }
 
-
+    #precioycuotas, .fas {
+        font-size: 13px;
+        margin-right: 7px;
+    }
 }
