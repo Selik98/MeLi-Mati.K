@@ -20,6 +20,11 @@ nav {
     justify-content: center;
 }
 
+a {
+    color: black;
+    text-decoration: none;
+}
+
 .superior {
     display: flex;
     align-content: center;
@@ -46,7 +51,7 @@ nav {
     border-radius: 5px;
 }
 
-.buscador{
+.buscador {
     height: 30px;
     font-size: 18px;
 }
@@ -116,21 +121,21 @@ nav {
 }
 
 
-.navlinks{
+.navlinks {
     color: black;
     text-decoration: none;
 }
 
-.navlinks:visited{
+.navlinks:visited {
     color: black;
     text-decoration: none;
 }
 
-.navlinks :hover{
+.navlinks :hover {
     color: #0044aa;
 }
 
-.navlinks :hover i{
+.navlinks :hover i {
     color: #0044aa !important;
 }
 
@@ -155,7 +160,7 @@ main {
     font-size: 6vw;
     font-weight: 600;
     margin: 4vw 0% 4vw 0%;
-    color: rgb(60,60,60);
+    color: rgb(60, 60, 60);
 }
 
 
@@ -175,7 +180,7 @@ main {
     transition: 300ms;
 }
 
-article:hover .camion{
+article:hover .camion {
     width: 40px;
     height: 40px;
     font-size: 20px;
@@ -191,10 +196,10 @@ article:hover .camion{
 
 
 
-.lista{
+.lista {
     display: flex;
     flex-wrap: wrap;
-    width: 100%;
+    width: 99%;
     justify-content: space-evenly;
 }
 
@@ -205,20 +210,21 @@ article {
     display: flex;
     flex-wrap: wrap;
 }
+
 article b {
     font-size: 18px;
     color: rgb(151, 151, 151);
-    opacity: 0%;
+    opacity: 75%;
     transition: 300ms;
 }
 
 article:hover b {
     opacity: 100%;
-  }
+}
 
 
 
-b:hover{
+b:hover {
     display: inline-block;
 }
 
@@ -252,13 +258,14 @@ b:hover{
 
 
 
-.precio{
+.precio {
     width: 80%;
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding-bottom: 3vw;
 }
+
 h5 {
     font-size: 18px;
 
@@ -277,7 +284,7 @@ h6 {
 
 
 
-.pie p{
+.pie p {
     margin-top: 10px;
 }
 
@@ -302,11 +309,11 @@ footer {
 
 }
 
-.pie:hover .foot{
+.pie:hover .foot {
     color: #0044aa;
 }
 
-#copy{
+#copy {
     padding-top: 50px;
     display: flex;
     width: 90vw;
@@ -314,11 +321,12 @@ footer {
 }
 
 @media (min-width: 361px) {
-    .camion{
+    .camion {
         font-size: 14px;
         align-content: center;
     }
-    article:hover .camion{
+
+    article:hover .camion {
         width: 30px;
         height: 30px;
         font-size: 14px;
@@ -326,33 +334,34 @@ footer {
     }
 
 
-    .busqueda input{
+    .busqueda input {
         width: 70%;
     }
 
-    
 
-    .ofertas{
+
+    .ofertas {
         font-size: 25px;
         justify-content: flex-start;
         padding-left: 6vw;
     }
 
 
-    article{
+    article {
         width: 38%;
     }
+
     article:hover {
         box-shadow: 0px 0px 10px rgb(100, 100, 100);
     }
 
-    .productoml{
+    .productoml {
         padding: 4vw;
-        
+
     }
 
-    
-    .footer{
+
+    .footer {
         display: flex;
         width: 90vw;
         margin: 0;
@@ -360,19 +369,19 @@ footer {
 
     }
 
-    .pie{
+    .pie {
         width: 30%;
     }
 
 
     h5 {
         font-size: 13px;
-    
+
         display: inline-block;
         width: fit-content;
-    
+
     }
-    
+
     h6 {
         display: inline-block;
         font-size: 14px;
@@ -383,73 +392,73 @@ footer {
         width: 100%;
     }
 
-    
-@media (min-width: 481px) {
 
-    h5 {
-        font-size: 16px;
-    
-        display: inline-block;
-        width: fit-content;
-    
+    @media (min-width: 481px) {
+
+        h5 {
+            font-size: 16px;
+
+            display: inline-block;
+            width: fit-content;
+
+        }
+
+        article:hover .camion {
+            width: 40px;
+            height: 40px;
+            font-size: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            top: -20px;
+            transform: rotate(-90deg);
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     }
-
-    article:hover .camion{
-        width: 40px;
-        height: 40px;
-        font-size: 20px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        top: -20px;
-        transform: rotate(-90deg);
-    }
-
-
-
-
-    
-
-
-
-
-
-
-
-
-
-
-
-  
-
-}
 
 
 
     @media (min-width: 769px) {
 
-    .superior {
-        width: 66vw;
-    }
+        .superior {
+            width: 66vw;
+        }
 
-    .sup {
-        width: 32vw;
-    }
+        .sup {
+            width: 32vw;
+        }
 
 
-    #precioycuotas {
-        width: 33vw;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
+        #precioycuotas {
+            width: 33vw;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
 
-    .inf {
-        display: flex;
-        width: 100vw;
-        padding-bottom: 15px;
-        justify-content: space-between;
-    }
+        .inf {
+            display: flex;
+            width: 100vw;
+            padding-bottom: 15px;
+            justify-content: space-between;
+        }
 
 
 
@@ -461,26 +470,28 @@ footer {
             justify-content: space-around;
         }
 
-          .burger-menu {
-        display: none;
-    }
+        .burger-menu {
+            display: none;
+        }
 
 
-        .ofertas{
+        .ofertas {
             font-size: 35px;
         }
 
-        .productoml{
+        .productoml {
             padding: 2vw;
         }
 
-        .productos{
+        .productos {
             padding: 2vw;
         }
+
         article {
             width: 20vw;
         }
-        a .navlinks{
+
+        a .navlinks {
             font-size: 17px;
         }
     }
@@ -490,24 +501,26 @@ footer {
 
 
 @media (min-width: 1080px) {
-    h4{
+    h4 {
         font-size: 0.7vw;
     }
 
-    h4 i{
+    h4 i {
         font-size: 0.7vw;
     }
-    
-    
-    .livacia{
+
+
+    .livacia {
         font-size: 17px;
     }
 
-    h5 , h6{
+    h5,
+    h6 {
         font-size: 16px;
     }
 
-    #precioycuotas, .fas {
+    #precioycuotas,
+    .fas {
         font-size: 13px;
         margin-right: 7px;
     }

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/img/logo-mercado-liebre.svg" type="image/x-icon">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="/css/create.css">
+    <link rel="stylesheet" href="/css/styles.css">
+    <title> Agregar un producto </title>
+</head>
+
+<body>
+
+    <%- include('./partials/navbar.ejs'); %>
+
+
+        <main>
+            <section class="base">
+                <form action='/crearProducto' method="post" class="base" enctype="multipart/form-data">
+                    <h1>Agregar un producto</h1>
+                    <div class="base">
+
+                        <div class="holder">
+                            <h4 class="propiedades">Nombre del producto</h4>
+                            <input type="text" id="nombre" placeholder="Ej: Perfume Antonio Banderas" class="contenedor"
+                                name="title">
+                        </div>
+                        <div class="holder">
+                            <h4 class="propiedades">Una Breve escripción</h4>
+                            <input type="text" id="descripción" placeholder="Ej: Lorem" class="contenedor" name="desc">
+                        </div>
+                        <div class="holder">
+                            <h4 class="propiedades">Precio del producto</h4>
+                            <div class="holder holderP">
+                                <input type="text" id="precio" placeholder="Ej: 20000" class="contenedor" name="price"
+                                    id="precio">
+                                <h2 id="input">$</h2>
+                            </div>
+                        </div>
+                        <div class="holder">
+                            <h4 class="propiedades">Stock del producto</h4>
+                            <input type="text" id="stock" placeholder="Ej: 25" class="contenedor" name="stock">
+                        </div>
+
+                    </div>
+                    <br>
+
+                    <div class="holder">
+                        <label for="foto" class="propiedades">Foto Del producto</label>
+                        <input type="file" id="foto" name="img" class="contenedor"
+                            value="Seleccionar archivos" accept=".jpg">
+                    </div>
+
+
+
+
+                    <br>
+
+                    <p>
+                        <input type="submit" id="agregar" value="Agregar Producto" class="contenedor3">
+                    </p>
+                    </div>
+                </form>
+            </section>
+        </main>
+
+        <%- include('./partials/footer.ejs'); %>
+
+</body>
+
+</html>

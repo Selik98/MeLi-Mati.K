@@ -1,0 +1,140 @@
+
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.base{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    align-items: center;
+    width: 90vw;
+    border-radius: 15px;
+    padding: 3vw;
+}
+
+h1 {
+    font-size: 22px;
+}
+
+.holder {
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    position: relative;
+}
+
+#input {
+    position: absolute;
+    left: 11%;
+}
+
+.holderP{
+    display: flex;
+    justify-content: center;
+
+}
+
+#precio{
+    padding-left: 25px;
+    position: relative;
+}
+
+.propiedades{
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.contenedor {
+    width: 85%;
+    height: 35px;
+    border-radius: 7px;
+    padding: 5px;
+    align-items: center;
+    justify-content: center;
+}
+
+#foto{
+ width: 80%;
+ height: auto;
+}
+
+.contenedor::file-selector-button, #agregar {
+    background-color: #84dcc6;
+    color: black;
+    font-size: 14px;
+    padding: 10px;
+    width: 170px;
+    height: 40px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 15px;
+
+}
+
+
+@media (min-width: 361px) {
+
+    #foto{
+        width: 78%;
+       }
+       
+
+}
+
+@media (min-width: 481px) {
+
+#input {
+    position: absolute;
+    left: 9%;
+}
+
+h1 {
+    font-size: 28px;
+}
+
+.propiedades{
+    font-size: 16px;
+}
+
+
+
+   
+}
+
+@media (min-width: 769px) {
+
+    h1 {
+        font-size: 32px;
+    }
+    
+    .propiedades{
+        font-size: 18px;
+    }
+
+
+
+}
+
+@media (min-width: 1080px) {
+    #input {
+        position: absolute;
+        left: 8%;
+    }
+
+    h4{
+        font-size: 24px;
+        font-weight: 500;
+        margin-bottom: 10px;
+    }
+}

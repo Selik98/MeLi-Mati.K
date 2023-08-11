@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/img/logo-mercado-liebre.svg" type="image/x-icon">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="/css/detail.css">
+    <link rel="stylesheet" href="/css/styles.css">
+    <title>
+        <%= product.title %>
+    </title>
+</head>
+
+<body>
+
+    <%- include('../partials/navbar.ejs'); %>
+
+        <main>
+            <div id="producto">
+                <img src="/img/products/<%= product.img %>">
+                <div class="productoml">
+
+                    <div class="precio">
+
+                        <h5>$<%= product.price %>
+                        </h5>
+                        <h6>
+                            <%= product.disscount %>% OFF
+                        </h6>
+                    </div>
+                    <b>
+                        <%= product.title %>
+                    </b>
+                    
+                    <h4 class="desc"><%= product.desc %></h4>
+                        
+                        <div class="holder">
+                            <button class="boton">Comprar</button>
+                            <button class="boton">Añadir al carrito</button>
+                        </div>
+                </div>
+
+            </div>
+
+        </main>
+
+
+        <%- include('../partials/footer.ejs'); %>
+
+</body>
+
+</html>

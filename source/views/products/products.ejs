@@ -20,9 +20,9 @@
             <img src="/img/img-home-banner.jpg" width="100%">
 
             <section>
-                <li class="ofertas">Basado en tu última visita</li>
+                <li class="ofertas">Todos Nuestros Productos</li>
                 <ul class="lista">
-                    <% destacados.forEach(products => { %>
+                    <% products.forEach(products => { %>
                     <article><a href="/<%= products.id %>/detail">
                         <img src="/img/products/<%= products.img %>" class="productos">
                         <div class="productoml">
@@ -42,28 +42,7 @@
                 </ul>
             </section>
 
-            <section>
-                <li class="ofertas">Sección de Ofertas</li>
-                <ul class="lista">
 
-                    <% ofertas.forEach(products => { %>
-                        <article><a href="/<%= products.id %>/detail">
-                            <img src="/img/products/<%= products.img %>" class="productos">
-                            <div class="productoml">
-                                <div class="envios">
-                                    <i class="fa-solid fa-truck camion"></i>
-                                </div>
-                                <div class="precio">
-                                    <h5>$<%= products.price %></h5>
-                                    <h6><%= products.disscount %>% OFF </h6>
-                                </div>
-                                <b><%= products.title %></b>
-                            </div>
-                        </a></article>
-                        <% }) %>
-                  
-                </ul>
-            </section>
 
 
 

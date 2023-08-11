@@ -1,0 +1,189 @@
+main {
+    justify-content: center;
+}
+
+#producto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    margin-top: 3vw;
+    width: 90vw;
+}
+
+.desc {
+    margin-top: 3vw;
+    color: #222222;
+    font-size: 11px;
+    display: block;
+}
+
+img {
+    width: 60vw;
+
+}
+
+.holder {
+    margin-top: 7vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.boton {
+    width: 60%;
+    height: 40px;
+    margin-top: 4vw;
+    border-radius: 8px;
+    background-color: #84dcc6b9;
+    color: #03264c;
+    font-size: 18px;
+    
+
+}
+
+@media (min-width: 361px) {
+
+    #producto h6,
+    #producto h5 {
+
+        font-size: 5vw;
+
+    }
+
+    #producto b {
+        font-size: 7vw;
+    }
+
+}
+
+@media (min-width: 481px) {
+    #producto {
+        flex-direction: row;
+        align-items: flex-start;
+    }
+
+    img {
+        width: 50vw;
+        padding: 2vw;
+    }
+
+    .productoml {
+        height: 100%;
+        border-top: none !important;
+        align-content: flex-start;
+    }
+
+    .precio {
+        height: 20%;
+    }
+
+    #producto b {
+        position: absolute;
+        top: 7%;
+        font-size: 3.2vw;
+    }
+
+    #producto h6,
+    #producto h5 {
+        font-size: 3vw;
+        position: relative;
+        top: 6vw;
+    }
+
+    .desc {
+        margin-top: 20%;
+        font-size: 1.8vw;
+    }
+
+    .holder{
+        margin-top: 1vw;
+    }
+    .boton {
+    width: 90%;
+    height: 35px;
+    }
+
+}
+
+@media (min-width: 769px) {
+    #producto {
+        flex-direction: row;
+        align-items: flex-start;
+    }
+
+    img {
+        width: 50vw;
+    }
+
+    .productoml {
+        height: 100%;
+        border-top: none !important;
+        align-content: flex-start;
+    }
+
+    .precio {
+        height: 20%;
+        width: 80% !important;
+    }
+
+    #producto b {
+        position: absolute;
+        top: 7%;
+        font-size: 3vw;
+    }
+
+    #producto h6,
+    #producto h5 {
+        font-size: 2vw;
+        position: relative;
+        top: 6vw;
+    }
+
+    .desc {
+        font-size: 1.5vw;
+    }
+
+    .boton{
+        width: 65%;
+        margin-top: 3vw;
+    }
+
+}
+
+
+@media (min-width: 1280px) {
+
+    #producto {
+        width: 70vw;
+    }
+
+    #producto img {
+        width: 35vw;
+    }
+
+    #producto b {
+        position: absolute;
+        top: 7%;
+        font-size: 40px;
+    }
+
+    #producto h6,
+    #producto h5 {
+        font-size: 24px;
+        position: relative;
+        top: 4vw;
+    }
+
+    .desc {
+        font-size: 14px;
+        margin-top: 12%;
+    }
+
+    .boton{
+        width: 45%;
+        margin-top: 2vw;
+    }
+
+}
