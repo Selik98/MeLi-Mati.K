@@ -42,6 +42,10 @@ const controller = {
 
         const product = productModel.findById(productId);
 
+        console.log(product)
+
+        if (product === undefined) return res.redirect('/')
+
         res.render('detail', { product});
     },
     products: (req, res) => {
