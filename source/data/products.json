@@ -1,1 +1,108 @@
-[{"id":1,"title":"Cafetera Moulinex","desc":"Ejemplo","price":6770,"disscount":40,"img":"img-cafetera-moulinex.jpg"},{"id":2,"title":"MacBook Pro 2019","desc":"Ejemplo","price":230000,"disscount":20,"img":"img-macbook-pro-2019.jpg"},{"id":3,"title":"Samsung Galaxy S10","desc":"Ejemplo","price":150000,"disscount":10,"img":"img-samsung-galaxy-s10.jpg"},{"id":4,"title":"SmartTv Samsung 43'","desc":"Ejemplo","price":95000,"disscount":5,"img":"img-tv-samsung-smart.jpg"},{"id":5,"title":"Parlante Sony","desc":"Ejemplo","price":32000,"disscount":15,"img":"parlante-sony-xb43.jpg"},{"id":6,"title":"Auriculares Beats By Dr.Dre","desc":"Ejemplo","price":60000,"disscount":35,"img":"beats-by-dre.jpg"},{"id":7,"title":"Perfume Antonio Banderas","desc":"Ejemplo ejemplo ejemplo","price":"12750","disscount":5,"img":"1691764690697-5390419861baf8bc67603cfc2f53.jpg"},{"id":8,"title":"Aire Acondicionado Trener","desc":"Ejemplo","price":"280000","disscount":50,"img":"1691765362919-Aire acondicionado trener.jpg"},{"id":9,"title":"Heladera Whirpool","desc":"Una muy bonita Heladera para toda la familia","price":"250000","disscount":10,"img":"1691767084256-heladera Whirpool.jpg"},{"id":10,"title":"Mini Refri","desc":"Para todas las habitaciones ya sean de hotel ","price":"166000","disscount":35,"img":"1691767147143-mini-heladera-15-600x600.jpg"},{"id":11,"title":"Lavarropas Elac","desc":"Lavarropas automatico portatil","price":"50000","disscount":10,"img":"1691767246439-ELAC309S_2.png"},{"id":12,"title":"Nikon D 5600","desc":"Tiene 22000 disparos y viene con flash incluido","price":"350000","disscount":15,"img":"1691767394700-1575_D5600_left.webp"},{"id":13,"title":"Algo de maquillaje","desc":"Lo tenia mi mujer y ya no lo quiere mas","price":"32000","disscount":30,"img":"1692020558263-productos-retocar-maquillaje-fuera-de-casa-lancome-kSJF--819x900@MujerHoy.jpg"}]
+[
+    {
+        "id": 1,
+        "title": "Cafetera Moulinex",
+        "desc": "Ejemplo",
+        "price": 6770,
+        "disscount": 40,
+        "img": "img-cafetera-moulinex.jpg"
+    },
+    {
+        "id": 2,
+        "title": "MacBook Pro 2019",
+        "desc": "Ejemplo",
+        "price": 230000,
+        "disscount": 20,
+        "img": "img-macbook-pro-2019.jpg"
+    },
+    {
+        "id": 3,
+        "title": "Samsung Galaxy S10",
+        "desc": "Ejemplo",
+        "price": 150000,
+        "disscount": 10,
+        "img": "img-samsung-galaxy-s10.jpg"
+    },
+    {
+        "id": 4,
+        "title": "SmartTv Samsung 43'",
+        "desc": "Ejemplo",
+        "price": 95000,
+        "disscount": 5,
+        "img": "img-tv-samsung-smart.jpg"
+    },
+    {
+        "id": 5,
+        "title": "Parlante Sony",
+        "desc": "Ejemplo",
+        "price": 32000,
+        "disscount": 15,
+        "img": "parlante-sony-xb43.jpg"
+    },
+    {
+        "id": 6,
+        "title": "Auriculares Beats By Dr.Dre",
+        "desc": "Ejemplo",
+        "price": 60000,
+        "disscount": 35,
+        "img": "beats-by-dre.jpg"
+    },
+    {
+        "id": 7,
+        "title": "Perfume Antonio Banderas",
+        "desc": "Ejemplo ejemplo ejemplo",
+        "price": "12750",
+        "disscount": 5,
+        "img": "1691764690697-5390419861baf8bc67603cfc2f53.jpg"
+    },
+    {
+        "id": 8,
+        "title": "Aire Acondicionado Trener",
+        "desc": "Ejemplo",
+        "price": "280000",
+        "disscount": 50,
+        "img": "1691765362919-Aire acondicionado trener.jpg"
+    },
+    {
+        "id": 9,
+        "title": "Heladera Whirpool",
+        "desc": "Una muy bonita Heladera para toda la familia",
+        "price": "250000",
+        "disscount": 10,
+        "img": "1691767084256-heladera Whirpool.jpg"
+    },
+    {
+        "id": 10,
+        "title": "Mini Refri",
+        "desc": "Para todas las habitaciones ya sean de hotel ",
+        "price": "166000",
+        "disscount": 35,
+        "img": "1691767147143-mini-heladera-15-600x600.jpg"
+    },
+    {
+        "id": 11,
+        "title": "Lavarropas Elac",
+        "desc": "Lavarropas automatico portatil",
+        "price": "50000",
+        "disscount": 10,
+        "img": "1691767246439-ELAC309S_2.png"
+    },
+    {
+        "id": 12,
+        "title": "Nikon D 5600",
+        "desc": "Tiene 22000 disparos y viene con flash incluido",
+        "price": "350000",
+        "disscount": 15,
+        "img": "1691767394700-1575_D5600_left.webp"
+    },
+    {
+        "id": 13,
+        "title": "Algo de maquillaje",
+        "desc": "Lo tenia mi mujer y ya no lo quiere mas",
+        "price": "32000",
+        "disscount": 30,
+        "img": "1692020558263-productos-retocar-maquillaje-fuera-de-casa-lancome-kSJF--819x900@MujerHoy.jpg"
+    }
+]
+
+
